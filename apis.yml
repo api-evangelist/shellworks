@@ -1,8 +1,26 @@
 aid: shellworks
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/shellworks.png
 name: Shellworks
-description: 'Shellworks is a company surfaced as a portfolio company of version-one-ventures and added
-  to the API Evangelist network as a stub for enrichment. Sector: climate. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Shellworks is a materials-science company that produces VIVOMER, a home-compostable,
+  biodegradable alternative to conventional plastic made through a natural fermentation
+  process from agricultural waste. VIVOMER runs on standard plastic-manufacturing equipment,
+  is certified for food contact (FDA and EU 10/2011), and biodegrades without leaving
+  microplastics or toxic residue. Shellworks supplies these sustainable packaging materials
+  to consumer brands across the UK, EU, and US. Backed by Version One Ventures, the
+  company was surfaced as a portfolio lead and added to the API Evangelist network. It
+  is a B2B climate / materials supplier with no public API, developer portal, or SDK
+  surface.'
 url: https://raw.githubusercontent.com/api-evangelist/shellworks/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +30,26 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Climate
+- Sustainability
+- Packaging
+- Biomaterials
+- Materials Science
+- Compostable
+common:
+- type: Website
+  url: https://shellworks.com
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
